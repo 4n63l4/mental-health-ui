@@ -1,0 +1,4 @@
+# Ignore backend folder
+ACT/
+node_modules/
+dist/

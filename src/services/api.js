@@ -1,5 +1,5 @@
 import axios from 'axios';
 
-export default axios.create({
-  baseURL: 'http://localhost:3000'
+export const api = axios.create({
+  baseURL: 'https://act-1-x553.onrender.com', // ← your live Render URL
 });
